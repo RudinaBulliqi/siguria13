@@ -1,4 +1,5 @@
 # Autokey Cipher & Redefence Cipher
+Ky projekt paraqet implementimin e Autokey dhe Redefence Cipher, dy metoda klasike për enkriptimin e tekstit. 
 ## Përshkrimi i algoritmeve
 ### Autokey Cipher
 Autokey Cipher është një algoritëm klasik polialfabetik i zëvendësimit, që paraqet një përmirësim të ndjeshëm krahasuar me Vigenère Cipher. Ai përdor një çelës dinamik që fillon me një shkronjë të vetme të quajtur primer dhe vazhdon me vetë plaintext, duke shmangur kështu përsëritjen e çelësit dhe duke rritur sigurinë kundër analizës së frekuencës.
