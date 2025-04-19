@@ -1,9 +1,9 @@
-
+/*
 import java.util.*;
 
 public class Redefence {
 
-
+    //ENKRIPTIMI
     // Encrypt using Redefence (Rail Fence + custom key order)
     public static String encrypt(String text, int rails, int[] keyOrder) {
         if (rails <= 1 || keyOrder.length != rails) return text;
@@ -43,3 +43,4 @@ public class Redefence {
         System.out.println("Encrypted: " + encrypted);
     }
 }
+*/
