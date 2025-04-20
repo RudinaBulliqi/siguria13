@@ -1,5 +1,6 @@
 # Autokey Cipher & Redefence Cipher
 Ky projekt paraqet implementimin e Autokey dhe Redefence Cipher, dy metoda klasike për enkriptimin e tekstit. 
+
 ## Përshkrimi i algoritmeve
 ### Autokey Cipher
 Autokey Cipher është një algoritëm klasik polialfabetik i zëvendësimit, që paraqet një përmirësim të ndjeshëm krahasuar me Vigenère Cipher. Ai përdor një çelës dinamik që fillon me një shkronjë të vetme të quajtur primer dhe vazhdon me vetë plaintext, duke shmangur kështu përsëritjen e çelësit dhe duke rritur sigurinë kundër analizës së frekuencës.
@@ -43,4 +44,48 @@ Autokey Cipher mund të zbatohet edhe përmes një tabele të njohur si Tabula R
 ![Image](https://github.com/user-attachments/assets/1d004f2b-fa24-4693-9808-90b44d21eef7)
 
 
-The Redefence cipher is a variation of the Railfence transposition cipher which was used by both sides during the American Civil War. It was first described in the Feb-Mar and Jun-Jul 1952 editions of the American Cryptogram Association's (ACA) magazine The Cryptogram by ACA member RED E. RASER though it wasn't given the name of Redefence until the Jul-Aug 1965 edition. The cipher is formed by writing plaintext letters in a zig-zag pattern across a number of rows or 'rails' starting on any row. The text is then read off across the rows in the order determined by a keyword or number to produce the ciphertext.
+
+
+# Redefence Cipher në Java
+Ky projekt është një implementim i **Redefence Cipher**. 
+
+**Historia e Redefence Cipher**
+Redefence Cipher është një variant i shifrës së transpozimit **Railfence**, e cila është përdorur nga të dyja palët gjatë Luftës Civile Amerikane. Ajo u përshkrua për herë të parë në edicionet Shkurt–Mars dhe Qershor–Korrik të vitit 1952 të revistës *The Cryptogram* të Shoqatës Amerikane të Kriptogramit (American Cryptogram Association – ACA) nga anëtari i saj **RED E. RASER**, edhe pse emri *Redefence* u përdor për herë të parë në edicionin Korrik–Gusht të vitit 1965.
+
+Një variant i Rail Fence Cipher me një çelës të personalizuar që përcakton rendin e leximit të linjave (rails) pasi teksti është shkruar në mënyrë zig-zag (model rail fence).
+
+## Si Funksionon
+Kjo shifër funksionon duke shkruar tekstin e thjeshtë në një model zig-zag përmes disa rreshtave ose 'shina' (rails), duke filluar nga një rresht i caktuar. Më pas, shkronjat lexohen në një rend të përcaktuar nga një fjalë kyçe ose një numër, për të prodhuar tekstin e koduar (ciphertext).
+
+1. Teksti origjinal shkruhet në një model zig-zag mbi një numër të caktuar linjash (rails).**Railfence**
+2. Në vend që linjat të lexohen nga lart-poshtë si zakonisht, një **çelës i personalizuar** përcakton rendin në të cilin lexohen linjat për të formuar tekstin e koduar.
+
+Shembull:
+- Teksti: `GRUPI13SIGURIAETEDHENAVE`
+- Linjat: `3`
+- Çelësi: `[2, 0, 1]`
+- Teksti i koduar: `...`-rezultati pasi te behet run file Redefence.java
+
+## Dekriptimi
+
+Dekriptimi në Redefence Cipher është procesi i kthimit të tekstit të koduar (ciphertext) përsëri në tekstin origjinal (plaintext), duke ndjekur hapat e kundërt të enkriptimit.
+
+## Kërkesat për dekriptim:
+- Teksti i koduar (ciphertext)
+- Numri i rail-ve të përdorur
+- Çelësi që përcakton rendin e rail-ve
+
+Ky proces siguron që vetëm personi që ka çelësin e saktë mund të rikuperojë tekstin e plotë origjinal.
+
+## Files
+Kodet me shembull tekstin e mesiperm
+- `Redefence.java` – Kodi kryesor për enkriptim 
+- `Redefence.java` – Kodi kryesor për dekriptim 
+
+
+
+
+
+
+
+
