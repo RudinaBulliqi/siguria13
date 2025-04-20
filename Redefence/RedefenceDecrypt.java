@@ -3,11 +3,11 @@ public class RedefenceDecrypt {
     public static String decrypt(String cipher, int rails, int[] keyOrder) {
         if (rails <= 1 || keyOrder.length != rails) return cipher;
 
-        // Step 1: Create an empty rail structure
+
         int[] railLengths = new int[rails];
         int len = cipher.length();
 
-        // Step 2: Simulate the zig-zag pattern to count characters per rail
+
         int rail = 0;
         boolean down = true;
         for (int i = 0; i < len; i++) {
@@ -17,7 +17,7 @@ public class RedefenceDecrypt {
             rail += down ? 1 : -1;
         }
 
-        // Step 3: Determine actual positions in cipher for each rail, based on keyOrder
+
         String[] railStrings = new String[rails];
         int cipherIndex = 0;
         for (int k = 0; k < rails; k++) {
@@ -27,7 +27,7 @@ public class RedefenceDecrypt {
             cipherIndex += count;
         }
 
-        // Step 4: Reconstruct the zig-zag using the rail strings
+
         StringBuilder result = new StringBuilder();
         int[] railPositions = new int[rails];
         rail = 0;

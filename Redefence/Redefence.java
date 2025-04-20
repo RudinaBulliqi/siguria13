@@ -1,4 +1,4 @@
-/*
+
 import java.util.*;
 
 public class Redefence {
@@ -43,4 +43,3 @@ public class Redefence {
         System.out.println("Encrypted: " + encrypted);
     }
 }
-*/
