@@ -1,7 +1,7 @@
 package Autokey;
 import java.util.Scanner;
 
-public class AutoKey {
+public class Autokey {
 
     private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
