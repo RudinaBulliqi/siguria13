@@ -1,0 +1,4 @@
+# siguria13
+Grupi 13 i lendes Siguria e te Dhenave
+
+The Redefence cipher is a variation of the Railfence transposition cipher which was used by both sides during the American Civil War. It was first described in the Feb-Mar and Jun-Jul 1952 editions of the American Cryptogram Association's (ACA) magazine The Cryptogram by ACA member RED E. RASER though it wasn't given the name of Redefence until the Jul-Aug 1965 edition. The cipher is formed by writing plaintext letters in a zig-zag pattern across a number of rows or 'rails' starting on any row. The text is then read off across the rows in the order determined by a keyword or number to produce the ciphertext.
