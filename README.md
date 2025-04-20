@@ -60,11 +60,21 @@ Kjo shifër funksionon duke shkruar tekstin e thjeshtë në një model zig-zag p
 1. Teksti origjinal shkruhet në një model zig-zag mbi një numër të caktuar linjash (rails).**Railfence**
 2. Në vend që linjat të lexohen nga lart-poshtë si zakonisht, një **çelës i personalizuar** përcakton rendin në të cilin lexohen linjat për të formuar tekstin e koduar.
 
-Shembull:
-- Teksti: `GRUPI13SIGURIAETEDHENAVE`
-- Linjat: `3`
-- Çelësi: `[2, 0, 1]`
-- Teksti i koduar: `...`-rezultati pasi te behet run file Redefence.java
+## Shembuj Ekzekutimi
+
+### Shembull për Enkriptim
+
+Tekst origjinal: SHEMBULLPRAKTIK
+Numri i rail-ve: 3
+Çelësi: [2, 0, 1]
+Rezultat: SURLKIEHMLPATBK
+
+### Shembull për Dekriptim
+
+Tekst i koduar: SURLKIEHMLPATBK
+Numri i rail-ve: 3
+Çelësi: [2, 0, 1]
+Rezultat: SHEMBULLPRAKTIK
 
 ## Dekriptimi
 
