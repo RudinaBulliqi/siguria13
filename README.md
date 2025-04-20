@@ -80,7 +80,7 @@ Ky proces siguron që vetëm personi që ka çelësin e saktë mund të rikupero
 ## Files
 Kodet me shembull tekstin e mesiperm
 - `Redefence.java` – Kodi kryesor për enkriptim 
-- `Redefence.java` – Kodi kryesor për dekriptim 
+- `RedefenceDecrypt.java` – Kodi kryesor për dekriptim 
 
 
 
